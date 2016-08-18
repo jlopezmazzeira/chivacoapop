@@ -5,12 +5,100 @@ body{
 	line-height: 1.5;
 }
 
+header {
+    margin: 0 auto;
+    padding: 30px 0 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul.redes-sociales{
+	list-style: none;
+}
+
+.block {
+    width: 90%;
+    max-width: 1130px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
 .center{
 	text-align: center !important; 
 }
 
 .copyright{
 	background: #222222;
+}
+
+.home-background{
+	background: #333;
+    background-attachment: fixed;
+	background-image: url('../images/sunrise_background.jpg');
+    background-size: cover;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.menu-principal{
+    background: url('../images/bg_nav.png') top left repeat;
+    margin-top: 20px;
+    padding: 3px 0;
+}
+
+.redes-sociales{
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.redes-sociales a{
+	background: #FFF;
+    border-radius: 100%;
+    color: #000;
+    display: inline-block;
+    font-size: 23px;
+    opacity: 0.5;
+    text-align: center;
+    width: 1.5em;
+}
+
+.redes-sociales a:hover{
+	background: #FFF;
+    opacity: 0.8;
+}
+
+.redes-sociales li{
+	color: #6B6B6B;
+    font-size: 14px;
+    float: left;
+    padding: 0 2px 0 5px;
+}
+
+.slogan{
+    background: url('../images/bg_slogan.png') top left repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 11% auto 11%;
+    padding: 30px;
+    text-align: center;
+}
+
+.slogan h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.slogan p {
+    font-size: 34px;
+    font-weight: 100;
 }
 
 .top-page{
