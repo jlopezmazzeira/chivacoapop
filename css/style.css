@@ -5,6 +5,11 @@ body{
 	line-height: 1.5;
 }
 
+footer{
+    background: #000;
+    color: #FFF;
+}
+
 header {
     margin: 0 auto;
     padding: 30px 0 0;
@@ -31,6 +36,25 @@ ul.redes-sociales{
 
 .copyright{
 	background: #222222;
+    color: #FFF;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.copyright p:first-child{
+    margin-bottom: 0;
+}
+
+.copyright p:last-child{
+    margin-top: 0;
+}
+
+.copyright p:last-child:after{
+    content: " -";
+}
+
+.copyright p:last-child:before{
+    content: "- ";
 }
 
 .home-background{
@@ -77,6 +101,12 @@ ul.redes-sociales{
     font-size: 14px;
     float: left;
     padding: 0 2px 0 5px;
+}
+
+.servicios{
+    background-image: url('../images/bg_diamond.png');
+    padding: 20px 0;
+    text-align: center;
 }
 
 .slogan{
