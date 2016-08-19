@@ -8,6 +8,28 @@ body{
 footer{
     background: #000;
     color: #FFF;
+    padding: 12px;
+}
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer p{
+    text-align: justify;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+   text-align: left;
 }
 
 header {
@@ -16,6 +38,14 @@ header {
     position: relative;
     width: 100%;
     z-index: 1000;
+}
+
+header img{
+    height: 150px;
+}
+
+header h1{
+    margin: 0 auto;
 }
 
 ul.redes-sociales{
@@ -57,6 +87,12 @@ ul.redes-sociales{
     content: "- ";
 }
 
+.descripcion{
+    color: #FFF;
+    display: block;
+    text-align: center;
+}
+
 .home-background{
 	background: #333;
     background-attachment: fixed;
@@ -64,6 +100,18 @@ ul.redes-sociales{
     background-size: cover;
     min-height: 200px;
     overflow: hidden;
+}
+
+.informacion{
+    padding: 20px;
+}
+
+.informacion img{
+    width: 100%;
+}
+
+.logo-footer img{
+    height: 120px;
 }
 
 .menu-principal{
@@ -142,4 +190,9 @@ ul.redes-sociales{
 
 .top-page:hover{
 	color: #FFF;
+}
+
+.ubicacion p{
+    margin-bottom: 0;
+    margin-top: 0;
 }
