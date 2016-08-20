@@ -53,10 +53,10 @@ ul.redes-sociales{
 }
 
 .block {
-    width: 90%;
-    max-width: 1130px;
     margin: 0 auto;
+    max-width: 1130px;
     position: relative;
+    width: 90%;
     z-index: 1;
 }
 
@@ -93,6 +93,10 @@ ul.redes-sociales{
     text-align: center;
 }
 
+.element-normal-bottom{
+    margin-bottom: 72px!important;
+}
+
 .home-background{
 	background: #333;
     background-attachment: fixed;
@@ -103,10 +107,29 @@ ul.redes-sociales{
 }
 
 .informacion{
-    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/*.informacion h2{
+    color: #868686;
+    font-size: 34px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .informacion img{
+    width: 100%;
+}*/
+
+.item{
+    float: left;
+    width: 50%;
+}
+
+.item img{
     width: 100%;
 }
 
@@ -121,8 +144,8 @@ ul.redes-sociales{
 }
 
 .redes-sociales{
-    margin: 0;
     list-style: none;
+    margin: 0;
     position: absolute;
     right: 10px;
     top: 10px;
@@ -146,8 +169,8 @@ ul.redes-sociales{
 
 .redes-sociales li{
 	color: #6B6B6B;
-    font-size: 14px;
     float: left;
+    font-size: 14px;
     padding: 0 2px 0 5px;
 }
 
@@ -177,6 +200,45 @@ ul.redes-sociales{
 .slogan p {
     font-size: 34px;
     font-weight: 100;
+}
+
+.testimonials-inner {
+    border-top: 1px solid #EAEAEA;
+    padding-bottom: 44px;
+    position: relative;
+}
+
+.testimonials-author{
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: .46em;
+    text-transform: uppercase;
+}
+
+.testimonials-inner img{
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: -74px;
+}
+
+.testimonials-inner h2{
+    margin-bottom: 20px;
+}
+
+.testimonials-text {
+    margin-bottom: 34px;
+}
+
+.testimonials-text p {
+    color: #3C3F41;
+    font-family: "kepler-std",serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: .25px;
+    line-height: 33px;
+    margin-bottom: .8em;
 }
 
 .top-page{
