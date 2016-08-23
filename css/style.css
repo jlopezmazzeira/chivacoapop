@@ -137,6 +137,11 @@ ul.redes-sociales{
     height: 120px;
 }
 
+.main{
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
 .menu-principal{
     background: url('../images/bg_nav.png') top left repeat;
     margin-top: 20px;
@@ -239,6 +244,14 @@ ul.redes-sociales{
     letter-spacing: .25px;
     line-height: 33px;
     margin-bottom: .8em;
+}
+
+.titulo{
+    color: #868686;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0 auto 50px;
+    text-align: left;
 }
 
 .top-page{
