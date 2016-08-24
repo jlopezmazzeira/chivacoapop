@@ -76,8 +76,33 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6"></div>
-						<div class="col-md-6"></div>
+						<div class="col-md-12">
+							<div class="ubicacion element-div-bottom">
+								<p><strong>Horario: </strong>de 12:00 m a 12:00 am</p>
+								<P><strong>Estamos en: </strong> Avenida 9 Esquina calle 12, Hotel Venecia, Chivacoa - Yaracuy</P>
+								<P><strong>Teléfono: </strong>0251-8831834</P>
+								<P><strong>E-mail: </strong>chivacoapop@gmail.com</P>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<form>
+							<div class="form-group col-md-6">
+								<label for="txtNombre">Nombre<span>*</span></label>
+							    <input type="text" class="form-control" id="txtNombre" placeholder="Nombre">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="txtEmail">Email<span>*</span></label>
+							    <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="txtMensaje">Mensaje<span>*</span></label>
+							    <textarea class="form-control" id="txtMensaje" rows="5"></textarea>
+							</div>
+							<div class="form-group col-md-12">
+								<button id="btnEnviar" type="submit" class="btn btn-default">Enviar</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -144,5 +169,8 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 		<script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/googleMap.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeQfYyhccpmSCOuOqGrkf1OWFLzh2QNvI&callback=initMap"
+    	async defer></script>
 	</body>
 </html>
