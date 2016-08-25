@@ -48,6 +48,10 @@ header h1{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
 ul.redes-sociales{
 	list-style: none;
 }
@@ -93,12 +97,21 @@ ul.redes-sociales{
     text-align: center;
 }
 
+.descripcion-equipo{
+    font-size: 18px;
+    text-align: center;
+}
+
 .element-div-bottom{
     margin-bottom: 40px!important;
 }
 
 .element-normal-bottom{
     margin-bottom: 72px!important;
+}
+
+.equipo img{
+    width: 100%;
 }
 
 .home-background{
@@ -125,6 +138,11 @@ ul.redes-sociales{
     width: 100%;
 }
 
+.item-precio{
+    color: #E54D1B;
+    float: right;
+}
+
 .item-producto{
     border-bottom: 1px solid #F0F0F0;
     font-size: 22px;
@@ -138,9 +156,8 @@ ul.redes-sociales{
     font-size: 14px;
 }
 
-.item-precio{
-    color: #E54D1B;
-    float: right;
+.lista-servicios li{
+    font-size: 20px;
 }
 
 .logo-footer img{
@@ -158,8 +175,19 @@ ul.redes-sociales{
     padding: 3px 0;
 }
 
+.point img{
+    height: 250px;
+    width: 100%;
+}
+
 .productos ul{
     list-style: none;
+}
+
+
+.p1{
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .redes-sociales{
@@ -285,6 +313,17 @@ ul.redes-sociales{
     text-align: left;
 }
 
+.titulo-nosotros{
+    font-size: 35px;
+    font-weight: 200 !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-nosotros span{
+    color: #868686;
+}
+
 .top-page{
 	background: #000;
 	color: #FFF;
@@ -318,6 +357,24 @@ ul.redes-sociales{
     color: #000;
 }
 
+.galeria{
+    overflow: hidden;
+}
+
+.item-galeria{
+    float: left;
+    margin-top: 10px;   
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.item-galeria img{
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    height: 200px;
+    width: 100%;
+}
 /*********************************************************** GALERIA ******************************************************************/
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,
 div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,
@@ -359,8 +416,8 @@ a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-
 .pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
 .pp_gallery li.default a{background:url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}
 .pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
-a.pp_next{background:url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}
-a.pp_previous{background:url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}
+a.pp_next{background:url(../images/prettyPhoto/light_square/btnNext.png) 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}
+a.pp_previous{background:url(../images/prettyPhoto/light_square/btnNext.png) 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}
 a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}
 a.pp_close{position:absolute;right:0;top:0;display:block;line-height:22px;text-indent:-10000px}
 .pp_loaderIcon{display:block;height:24px;left:50%;position:absolute;top:50%;width:24px;margin:-12px 0 0 -12px}
@@ -377,7 +434,7 @@ div.light_rounded .pp_description,div.light_square .pp_description{margin-right:
 div.light_rounded .pp_gallery a.pp_arrow_previous,div.light_rounded .pp_gallery a.pp_arrow_next,div.dark_rounded .pp_gallery a.pp_arrow_previous,div.dark_rounded .pp_gallery a.pp_arrow_next,div.dark_square .pp_gallery a.pp_arrow_previous,div.dark_square .pp_gallery a.pp_arrow_next,div.light_square .pp_gallery a.pp_arrow_previous,div.light_square .pp_gallery a.pp_arrow_next{margin-top:12px!important}
 div.light_rounded .pp_arrow_previous.disabled,div.dark_rounded .pp_arrow_previous.disabled,div.dark_square .pp_arrow_previous.disabled,div.light_square .pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}
 div.light_rounded .pp_arrow_next.disabled,div.dark_rounded .pp_arrow_next.disabled,div.dark_square .pp_arrow_next.disabled,div.light_square .pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}
-div.light_rounded .pp_loaderIcon,div.light_square .pp_loaderIcon{background:url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat}
+div.light_rounded .pp_loaderIcon,div.light_square .pp_loaderIcon{background:url(../images/prettyPhoto/light_square/loader.gif) center center no-repeat}
 div.dark_rounded .pp_top .pp_middle,div.dark_rounded .pp_content,div.dark_rounded .pp_bottom .pp_middle{background:url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat}
 div.dark_rounded .currentTextHolder,div.dark_square .currentTextHolder{color:#c4c4c4}
 div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline{color:#fff}
