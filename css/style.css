@@ -254,6 +254,7 @@ ul.sub-menu li a:hover {
 
 .point img{
     height: 250px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -523,7 +524,9 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 .pp_top .pp_right,.pp_bottom .pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}
 .pp_fade,.pp_gallery li.default a img{display:none}
 /*********************************************************** GALERIA ******************************************************************/
-@media (width: 240px){}
+@media (width: 240px){
+
+}
 
 @media (width: 320px){}
 
@@ -570,13 +573,88 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
     }
 }
 
-@media (width: 568px) and (orientation: landscape){}
+@media (width: 568px) and (orientation: landscape){
+    
+    .footer-sociales{
+        margin-top: 10px;
+    }
 
-@media (width: 667px) and (orientation: landscape){}
+    .footer-sociales span{
+        padding: 0 2px 0 5px;
+    }
 
-@media (width: 736px) and (orientation: landscape){}
+    .footer-sociales a{
+        background: #DDD;
+        border-radius: 100%;
+        color: #000;
+        display: inline-block;
+        font-size: 30px;
+        width: 1.5em;
+    }
 
-@media (width: 600px) and (orientation: landscape){}
+    .footer-sociales a:hover{
+        background: #FFF;
+    }
+
+    .slogan h2{
+        font-size: 53px;
+    }
+
+}
+
+@media (width: 667px) and (orientation: landscape){
+    .footer-sociales{
+        margin-top: 10px;
+    }
+
+    .footer-sociales span{
+        padding: 0 2px 0 5px;
+    }
+
+    .footer-sociales a{
+        background: #DDD;
+        border-radius: 100%;
+        color: #000;
+        display: inline-block;
+        font-size: 30px;
+        width: 1.5em;
+    }
+
+    .footer-sociales a:hover{
+        background: #FFF;
+    }
+}
+
+@media (width: 736px) and (orientation: landscape){
+    .footer-sociales{
+        margin-top: 10px;
+    }
+
+    .footer-sociales span{
+        padding: 0 2px 0 5px;
+    }
+
+    .footer-sociales a{
+        background: #DDD;
+        border-radius: 100%;
+        color: #000;
+        display: inline-block;
+        font-size: 30px;
+        width: 1.5em;
+    }
+
+    .footer-sociales a:hover{
+        background: #FFF;
+    }
+}
+
+@media (width: 600px) and (orientation: landscape){
+
+    .slogan h2{
+        font-size: 50px;
+    }
+
+}
 
 @media (width: 768px){}
 
