@@ -554,10 +554,19 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .footer-sociales a:hover{
         background: #FFF;
+        color: #000;
     }
 
     .item{
         width: 100%;
+    }
+
+    .item-galeria{
+        width: 100%;
+    }
+
+    .lista-servicios{
+        margin-bottom: 20px;
     }
 
     .redes-sociales{
@@ -570,6 +579,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .slogan p{
         font-size: 24px;
+    }
+
+    .titulo{
+        font-size: 39px;
     }
 }
 
