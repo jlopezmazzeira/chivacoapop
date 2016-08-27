@@ -531,6 +531,27 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
     header img{
         height: 100px;
     }
+
+    .item{
+        width: 100%;
+    }
+
+    .redes-sociales{
+        right: 5px;
+        top: 4px;
+    }
+
+    .redes-sociales a{
+        font-size: 20px;
+    }
+
+    .slogan h2{
+        font-size: 27px;
+    }
+
+    .slogan p{
+        font-size: 24px;
+    }
 }
 
 @media (width: 568px) and (orientation: landscape){}
