@@ -527,7 +527,11 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
 @media (width: 320px){}
 
-@media (max-width: 414px) {}
+@media (max-width: 414px) {
+    header img{
+        height: 100px;
+    }
+}
 
 @media (width: 568px) and (orientation: landscape){}
 
