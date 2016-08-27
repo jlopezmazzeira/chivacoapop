@@ -1,5 +1,5 @@
 function initMap() {
-  var myLatLng = {lat: 10.1613637, lng: -68.89688};
+  var myLatLng = {lat: 10.1612262, lng: -68.8962913};
 
   var styleArray = [
     {
