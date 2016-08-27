@@ -1,3 +1,7 @@
+a{
+    text-decoration: none !important;
+}
+
 body{
 	background: #FFF;
 	font-family: "Arial";
@@ -12,11 +16,12 @@ footer{
 }
 
 footer a{
-    color: #FFF;
+    color: #DDD;
     text-decoration: none;
 }
 
 footer a:hover{
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -48,6 +53,10 @@ header h1{
     margin: 0 auto;
 }
 
+li:hover > ul{
+    display: block;
+}
+
 nav {
     border-bottom: 1px dashed #999;
     border-top: 1px dashed #999;
@@ -57,12 +66,68 @@ nav {
     text-align: center;
 }
 
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 15px;
+    text-transform: uppercase;
+    transition: none;
+}
+
+nav ul li a {
+    color: #DDD;
+    padding: 21px 5px;
+    transition: none;
+}
+
+nav ul li a:hover{
+    color: #FFF;
+}
+
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 ul.redes-sociales{
 	list-style: none;
+}
+
+ul.sub-menu {
+    background: url('../images/bg_nav.png') top left repeat;
+    display: none;
+    margin-top: 4px;
+    margin-left: -15px;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    z-index: 999;
+}
+
+ul.sub-menu li {
+    display: block;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-transform: upppercase;
+}
+
+ul.sub-menu li a {
+    color: #DDD !important;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-shadow: none;
+}
+
+ul.sub-menu li a:hover {
+    background: #333;
+    color: #FFF !important;
 }
 
 .block {
@@ -129,6 +194,9 @@ ul.redes-sociales{
 	background-image: url('../images/sunrise_background.jpg');
     background-size: cover;
     min-height: 200px;
+}
+
+.element-overflow-hidden{
     overflow: hidden;
 }
 
@@ -240,7 +308,7 @@ ul.redes-sociales{
     background: url('../images/bg_slogan.png') top left repeat;
     border-radius: 10px;
     color: #FFF;
-    margin: 11% auto 11%;
+    margin: 7% auto 11%;
     padding: 30px;
     text-align: center;
     -webkit-border-radius: 10px;
