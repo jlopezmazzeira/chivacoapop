@@ -525,12 +525,33 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 .pp_fade,.pp_gallery li.default a img{display:none}
 /*********************************************************** GALERIA ******************************************************************/
 @media (width: 240px){
+    .footer-sociales a {
+        font-size: 22px;
+    }
+
     .slogan{
         padding: 20px;
     }
+
+    .slogan h2{
+        font-size: 20px;
+    }
+
+    .slogan p{
+        font-size: 20px;
+    }
+
+    .titulo-nosotros{
+        font-size: 20px;
+    }
 }
 
-@media (width: 320px){}
+@media (width: 320px){
+
+    .titulo-nosotros{
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 414px) {
     header img{
@@ -578,7 +599,7 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
     .slogan{
         padding: 20px;
     }
-    
+
     .slogan h2{
         font-size: 27px;
     }
@@ -589,6 +610,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .titulo{
         font-size: 39px;
+    }
+
+    .titulo-nosotros{
+        font-size: 26px;
     }
 }
 
