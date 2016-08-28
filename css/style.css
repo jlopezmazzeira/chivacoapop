@@ -525,7 +525,9 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 .pp_fade,.pp_gallery li.default a img{display:none}
 /*********************************************************** GALERIA ******************************************************************/
 @media (width: 240px){
-
+    .slogan{
+        padding: 20px;
+    }
 }
 
 @media (width: 320px){}
@@ -573,6 +575,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         visibility: hidden;
     }
 
+    .slogan{
+        padding: 20px;
+    }
+    
     .slogan h2{
         font-size: 27px;
     }
@@ -607,6 +613,15 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .footer-sociales a:hover{
         background: #FFF;
+        color: #000;
+    }
+
+    .item-galeria{
+        width: 50%;
+    }
+
+    .point img{
+        height: auto;
     }
 
     .slogan h2{
@@ -635,6 +650,15 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .footer-sociales a:hover{
         background: #FFF;
+        color: #000;
+    }
+
+    .item-galeria{
+        width: 50%;
+    }
+
+    .point img{
+        height: auto;
     }
 }
 
@@ -658,6 +682,15 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .footer-sociales a:hover{
         background: #FFF;
+        color: #000;
+    }
+
+    .item-galeria{
+        width: 50%;
+    }
+    
+    .point img{
+        height: auto;
     }
 }
 
