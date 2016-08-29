@@ -439,6 +439,10 @@ ul.sub-menu li a:hover {
     overflow: hidden;
 }
 
+.item-footer ul li{
+    margin-bottom: 8px;
+}
+
 .item-galeria{
     float: left;
     margin-top: 10px;   
