@@ -53,10 +53,6 @@ header h1{
     margin: 0 auto;
 }
 
-li:hover > ul{
-    display: block;
-}
-
 nav {
     border-bottom: 1px dashed #999;
     border-top: 1px dashed #999;
@@ -745,6 +741,12 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         font-size: 50px;
     }
 
+}
+
+@media (min-width: 768px){
+    li:hover > ul{
+        display: block;
+    }
 }
 
 @media (width: 768px){}
