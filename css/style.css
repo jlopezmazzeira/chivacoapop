@@ -457,6 +457,14 @@ ul.sub-menu li a:hover {
     height: 200px;
     width: 100%;
 }
+
+.navbar{
+    margin-bottom: 0 !important;
+}
+
+.navbar-inverse {
+    border-radius: 0 !important;
+}
 /*********************************************************** GALERIA ******************************************************************/
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,
 div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,
@@ -560,6 +568,14 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 @media (max-width: 414px) {
     header img{
         height: 150px;
+    }
+
+    nav{
+        text-align: left !important;
+    }
+    
+    nav ul li {
+        display: block;
     }
 
     .footer-sociales{
