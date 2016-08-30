@@ -461,6 +461,16 @@ ul.sub-menu li a:hover {
 .navbar-inverse {
     border-radius: 0 !important;
 }
+
+.nuestro-menu a{
+    color: #868686;
+}
+
+.nuestro-menu img{
+    border: 5px solid #DDD;
+    border-radius: 50%;
+    width: 100%;
+}
 /*********************************************************** GALERIA ******************************************************************/
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,
 div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,
