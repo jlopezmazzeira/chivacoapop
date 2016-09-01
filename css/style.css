@@ -196,6 +196,10 @@ ul.sub-menu li a:hover {
     overflow: hidden;
 }
 
+.galeria{
+    overflow: hidden;
+}
+
 .informacion{
     margin: 0 auto;
     overflow: hidden;
@@ -208,6 +212,25 @@ ul.sub-menu li a:hover {
 }
 
 .item img{
+    width: 100%;
+}
+
+.item-footer ul li{
+    margin-bottom: 8px;
+}
+
+.item-galeria{
+    float: left;
+    margin-top: 10px;   
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.item-galeria img{
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    height: 200px;
     width: 100%;
 }
 
@@ -246,6 +269,24 @@ ul.sub-menu li a:hover {
     background: url('../images/bg_nav.png') top left repeat;
     margin-top: 20px;
     padding: 3px 0;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+}
+
+.navbar-inverse {
+    border-radius: 0 !important;
+}
+
+.nuestro-menu a{
+    color: #868686;
+}
+
+.nuestro-menu img{
+    border: 5px solid #DDD;
+    border-radius: 50%;
+    width: 100%;
 }
 
 .point img{
@@ -431,46 +472,6 @@ ul.sub-menu li a:hover {
     color: #000;
 }
 
-.galeria{
-    overflow: hidden;
-}
-
-.item-footer ul li{
-    margin-bottom: 8px;
-}
-
-.item-galeria{
-    float: left;
-    margin-top: 10px;   
-    padding: 10px;
-    text-align: center;
-    width: 20%;
-}
-
-.item-galeria img{
-    border: 1px solid #F0F0F0;
-    border-radius: 3px;
-    height: 200px;
-    width: 100%;
-}
-
-.navbar{
-    margin-bottom: 0 !important;
-}
-
-.navbar-inverse {
-    border-radius: 0 !important;
-}
-
-.nuestro-menu a{
-    color: #868686;
-}
-
-.nuestro-menu img{
-    border: 5px solid #DDD;
-    border-radius: 50%;
-    width: 100%;
-}
 /*********************************************************** GALERIA ******************************************************************/
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,
 div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,
@@ -584,6 +585,13 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         display: block;
     }
 
+    p.precio{
+        color: #E54D1B;
+        font-size: 20px;
+        float: right;
+        margin-bottom: 0;
+    }
+
     .footer-sociales{
         margin-top: 10px;
     }
@@ -612,6 +620,14 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .item-galeria{
         width: 100%;
+    }
+
+    .item-producto{
+        padding-bottom: 30px;
+    }
+
+    .item-producto h3{
+        font-size: 20px;
     }
 
     .lista-servicios{
