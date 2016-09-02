@@ -806,6 +806,29 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         margin-bottom: 0;
     }
     
+    .footer-sociales{
+        margin-top: 10px;
+    }
+
+    .footer-sociales span{
+        padding: 0 2px 0 5px;
+        text-align: center;
+    }
+
+    .footer-sociales a{
+        background: #DDD;
+        border-radius: 100%;
+        color: #000;
+        display: inline-block;
+        font-size: 30px;
+        width: 1.5em;
+    }
+
+    .footer-sociales a:hover{
+        background: #FFF;
+        color: #000;
+    }
+      
     .item-producto{
         padding-bottom: 30px;
     }
