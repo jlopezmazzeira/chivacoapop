@@ -661,6 +661,13 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
 @media (width: 568px) and (orientation: landscape){
     
+    p.precio{
+        color: #E54D1B;
+        font-size: 20px;
+        float: right;
+        margin-bottom: 0;
+    }
+
     .footer-sociales{
         margin-top: 10px;
     }
@@ -685,6 +692,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
     .item-galeria{
         width: 50%;
+    }
+
+    .item-producto{
+        padding-bottom: 30px;
     }
 
     .point img{
@@ -698,6 +709,13 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 }
 
 @media (width: 667px) and (orientation: landscape){
+    p.precio{
+        color: #E54D1B;
+        font-size: 20px;
+        float: right;
+        margin-bottom: 0;
+    }
+
     .footer-sociales{
         margin-top: 10px;
     }
@@ -718,6 +736,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
     .footer-sociales a:hover{
         background: #FFF;
         color: #000;
+    }
+
+    .item-producto{
+        padding-bottom: 30px;
     }
 
     .item-galeria{
@@ -730,6 +752,13 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 }
 
 @media (width: 736px) and (orientation: landscape){
+    p.precio{
+        color: #E54D1B;
+        font-size: 20px;
+        float: right;
+        margin-bottom: 0;
+    }
+
     .footer-sociales{
         margin-top: 10px;
     }
@@ -752,6 +781,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         color: #000;
     }
 
+    .item-producto{
+        padding-bottom: 30px;
+    }
+
     .item-galeria{
         width: 50%;
     }
@@ -762,6 +795,16 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 }
 
 @media (width: 600px) and (orientation: landscape){
+    p.precio{
+        color: #E54D1B;
+        font-size: 20px;
+        float: right;
+        margin-bottom: 0;
+    }
+    
+    .item-producto{
+        padding-bottom: 30px;
+    }
 
     .slogan h2{
         font-size: 50px;
